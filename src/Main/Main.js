@@ -56,11 +56,11 @@ class Main extends Component {
 
 
     render() {
-        const gamesList = this.state.games.map(game => (
-            <div key={game._id} value={game._id}>
-                <h1>{game.name}</h1>
-            </div>
-        ))
+        // const gamesList = this.state.games.map(game => (
+        //     <div key={game._id} value={game._id}>
+        //         <h1>{game.name}</h1>
+        //     </div>
+        // ))
 
         console.log(this.state.games)
 
@@ -73,7 +73,7 @@ class Main extends Component {
                     Search
                 </button>
                 </form>
-                <div>{gamesList}</div>
+                {/* <div>{gamesList}</div> */}
             </main>
         )
     }
